@@ -76,7 +76,7 @@ def display_posts(posts):
     console.print(table)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="View Reddit fees right in your terminal.")
+    parser = argparse.ArgumentParser(description="View Reddit feeds right in your terminal.")
     parser.add_argument(
         "subreddit",
         help="The subreddit you want to view (e.g., 'aww)"
